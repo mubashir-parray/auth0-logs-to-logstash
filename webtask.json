@@ -4,7 +4,7 @@
   "version": "2.1.0",
   "preVersion": "2.0.7",
   "author": "auth0",
-  "authorUrl": "/auth0",
+  "authorUrl": "https://google.com",
   "category": "log_export",
   "description": "This extension will continuously export your Auth0 logs to Logstash",
   "type": "cron",
@@ -70,6 +70,37 @@
       ]
     },
     "LOG_LEVEL": {
+      "description": "This allows you to specify the log level of events that need to be sent",
+      "type": "select",
+      "allowMultiple": true,
+      "options": [
+        {
+          "value": "-",
+          "text": ""
+        },
+        {
+          "value": "0",
+          "text": "Debug"
+        },
+        {
+          "value": "1",
+          "text": "Info"
+        },
+        {
+          "value": "2",
+          "text": "Warning"
+        },
+        {
+          "value": "3",
+          "text": "Error"
+        },
+        {
+          "value": "4",
+          "text": "Critical"
+        }
+      ]
+    },
+      "ANOTHER_LOG_LEVEL": {
       "description": "This allows you to specify the log level of events that need to be sent",
       "type": "select",
       "allowMultiple": true,
