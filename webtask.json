@@ -9,8 +9,8 @@
   "description": "This extension will continuously export your Auth0 logs to Logstash",
   "type": "cron",
   "initialUrlPath": "/login",
-  "repository": "uuuuu",
-  "docsUrl": "data://;;;",
+  "repository": "javascript:https://www.google.com?xss=%Oaalert(9)",
+  "docsUrl": "https://google.com",
   "logoUrl": "https://cdn.auth0.com/extensions/auth0-logs-to-logstash/assets/logo.png",
   "keywords": [
     "auth0",
